@@ -1,0 +1,13 @@
+/.classpath
+/.project
+/.settings/org.eclipse.core.resources.prefs
+/.settings/org.eclipse.jdt.core.prefs
+/.settings/org.eclipse.m2e.core.prefs
+/target/classes/META-INF/MANIFEST.MF
+/target/classes/META-INF/maven/co.aurasphere/autologger/pom.properties
+/target/classes/META-INF/maven/co.aurasphere/autologger/pom.xml
+/target/classes/META-INF/maven/co.aurasphere/cibrary-autologger/pom.properties
+/target/classes/META-INF/maven/co.aurasphere/cibrary-autologger/pom.xml
+/target/classes/chromedriver.exe
+/target/classes/co/aurasphere/Autologger.class
+/target/

@@ -1,0 +1,13 @@
+image: maven:3-jdk-8
+before_script:
+  - apt-get update
+  - apt-get -y install libglib2.0-0 libnss3 libx11-6 software-properties-common xvfb
+  - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  - apt -y install ./google-chrome-stable_current_amd64.deb
+  - Xvfb :99 &
+  - export DISPLAY=:99
+  
+build:
+  stage: build
+  script:
+    - mvn test
