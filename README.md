@@ -1,2 +1,2 @@
-# cybrary-autologger
-Application for logging automatically to cybrary.com
+# autologger
+Application to automatically login on a website
